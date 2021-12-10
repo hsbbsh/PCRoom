@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="270.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserLoginController">
+   <children>
+      <Label layoutX="69.0" layoutY="39.0" prefHeight="28.0" prefWidth="133.0" text="사용자 PC 로그인">
+         <font>
+            <Font name="NanumSquare Regular" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="67.0" fitWidth="67.0" layoutX="102.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/userLogin.PNG" />
+         </image></ImageView>
+      <ComboBox fx:id="cbxSeatNo" layoutX="72.0" layoutY="140.0" prefHeight="23.0" prefWidth="126.0" promptText="좌석번호 선택" />
+      <Label layoutX="33.0" layoutY="184.0" text="ID :" />
+      <Label layoutX="29.0" layoutY="212.0" text="PW :" />
+      <TextField fx:id="txtUserId" layoutX="61.0" layoutY="180.0" prefHeight="23.0" prefWidth="117.0" promptText="아이디" />
+      <PasswordField fx:id="txtUserPw" layoutX="61.0" layoutY="208.0" prefHeight="23.0" prefWidth="117.0" promptText="비밀번호" />
+      <Button fx:id="btnLogin" layoutX="186.0" layoutY="180.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="56.0" text="로그인" />
+      <Button fx:id="btnIdPwSearch" layoutX="61.0" layoutY="248.0" mnemonicParsing="false" text="ID/PW 찾기" />
+      <Button fx:id="btnUserAdd" layoutX="145.0" layoutY="248.0" mnemonicParsing="false" text="회원가입" />
+      <Button fx:id="btnAppStop" layoutX="104.0" layoutY="278.0" mnemonicParsing="false" text="사용종료" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminChatController">
+   <children>
+      <TextArea fx:id="txtArea" prefHeight="257.0" prefWidth="256.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="4.0" />
+      <TextField fx:id="txtField" layoutX="4.0" layoutY="265.0" prefHeight="23.0" prefWidth="173.0" />
+      <Button fx:id="btnSend" layoutX="181.0" layoutY="265.0" mnemonicParsing="false" text="보내기" />
+      <Button fx:id="btnClose" layoutX="235.0" layoutY="265.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="19.0" text="X" />
+   </children>
+</AnchorPane>

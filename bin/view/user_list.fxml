@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserListController">
+   <children>
+      <Label layoutX="21.0" layoutY="14.0" text="전체회원조회">
+         <font>
+            <Font name="NEXON Lv2 Gothic" size="15.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableViewUserDB" layoutX="11.0" layoutY="68.0" prefHeight="320.0" prefWidth="676.0" />
+      <TextField fx:id="txtSelect" layoutX="466.0" layoutY="34.0" promptText="검색할 단어 입력" />
+      <Button fx:id="btnSelect" layoutX="616.0" layoutY="34.0" mnemonicParsing="false" text="회원 검색" />
+      <Button fx:id="btnUserDelete" layoutX="616.0" layoutY="399.0" mnemonicParsing="false" text="회원 삭제" />
+      <Button fx:id="btnUserUpdate" layoutX="535.0" layoutY="399.0" mnemonicParsing="false" text="회원 수정" />
+      <Button fx:id="btnCharge" layoutX="452.0" layoutY="399.0" mnemonicParsing="false" text="요금 충전" />
+   </children>
+</AnchorPane>

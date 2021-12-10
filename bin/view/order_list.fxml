@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OrderListController">
+   <children>
+      <TableView fx:id="tableView" layoutX="9.0" layoutY="66.0" prefHeight="300.0" prefWidth="646.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" />
+      <Label layoutX="30.0" layoutY="21.0" text="주문 현황">
+         <font>
+            <Font name="NEXON Lv2 Gothic Medium" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOrderDelete" layoutX="519.0" layoutY="374.0" mnemonicParsing="false" text="주문취소" />
+      <Button fx:id="btnOrderClear" layoutX="590.0" layoutY="374.0" mnemonicParsing="false" text="주문완료" />
+   </children>
+</AnchorPane>
